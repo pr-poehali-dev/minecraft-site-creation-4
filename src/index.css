@@ -102,19 +102,18 @@
 
 @layer utilities {
   .minecraft-border {
-    border-image: linear-gradient(45deg, #8B4513, #4169E1) 1;
+    border-image: linear-gradient(45deg, #8b4513, #4169e1) 1;
     border-width: 2px;
     border-style: solid;
   }
-  
+
   .pixelated {
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
   }
-  
+
   .minecraft-shadow {
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
   }
-}
 }
